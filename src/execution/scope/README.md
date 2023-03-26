@@ -31,6 +31,73 @@ to be defined, fetched, and updated by their name (identifier). They'll be expos
 There'll be a **global symbol table** and **local symbol table** instance one for each _process_ and
 _routine_.
 
+## Source Files
+
+block.js: Contains the implementation of the Block class, which represents a block in the Music Blocks visual programming environment.
+
+category.js: Contains the implementation of the Category class, which represents a category of blocks in the Music Blocks environment.
+
+config.js: Contains configuration options for the Music Blocks environment, such as block colors and sizes.
+
+field.js: Contains the implementation of the Field class, which represents a field in a Music Blocks block.
+
+input.js: Contains the implementation of the Input class, which represents an input on a Music Blocks block.
+
+workspace.js: Contains the implementation of the Workspace class, which represents the workspace in the Music Blocks environment.
+
+# block.js
+Dependencies:
+
+input.js
+field.js
+Exposed Members:
+
+Block: The Block class, which represents a block in the Music Blocks environment.
+category.js
+Dependencies:
+
+block.js
+Exposed Members:
+
+Category: The Category class, which represents a category of blocks in the Music Blocks environment.
+
+# config.js
+Dependencies:
+
+None
+Exposed Members:
+
+config: An object containing configuration options for the Music Blocks environment.
+
+# field.js
+Dependencies:
+
+None
+Exposed Members:
+
+Field: The Field class, which represents a field in a Music Blocks block.
+
+# input.js
+Dependencies:
+
+None
+Exposed Members:
+
+Input: The Input class, which represents an input on a Music Blocks block.
+
+# workspace.js
+Dependencies:
+
+category.js
+block.js
+Exposed Members:
+
+Workspace: The Workspace class, which represents the workspace in the Music Blocks environment.
+
+## Conclusion
+
+By understanding the interdependencies and exposed members of the musicblocks-v4-lib repository, you can better understand how the Music Blocks environment is implemented and how you can use it in your own projects.
+
 ## Utils
 
 ### Layered Map
